@@ -6,3 +6,5 @@ variable "bucket_name" {
     error_message = "Bucket Name must not be empty and must follow S3 naming rules."
   }
 }
+
+variable "dynamodb_table_name" {}

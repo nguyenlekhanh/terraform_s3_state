@@ -2,7 +2,11 @@
 project = "terraform-tutorial-prod"
 
 # General
+aws_region  = "us-east-1"
 profile = "aws" //or production
+environment = "prod"
+
 
 # Backend
 backend_s3_bucket = "cc-tf-state-backend-ci-cd-prod-999"
+backend_dynamodb_table = "tf_locks"
