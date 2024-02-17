@@ -1,0 +1,8 @@
+# Tags
+project = "terraform-tutorial-prod"
+
+# General
+profile = "aws" //or production
+
+# Backend
+backend_s3_bucket = "cc-tf-state-backend-ci-cd-prod-999"
